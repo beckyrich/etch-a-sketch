@@ -1,0 +1,38 @@
+{
+  "name": "etch-a-sketch",
+  "version": "1.0.0",
+  "description": "Etch-a-Sketch",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beckyrich/etch-a-sketch.git"
+  },
+  "author": "Becky Richardson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beckyrich/etch-a-sketch/issues"
+  },
+  "homepage": "https://github.com/beckyrich/etch-a-sketch#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-wesbos": "^1.0.1",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "lite-server": "^2.6.1",
+    "prettier": "^2.2.1"
+  }
+}
